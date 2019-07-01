@@ -52,8 +52,8 @@ app.use((req,res,next) =>{
 
 
 
-const PORT = 3000;
- app.listen(3000,()=>{
+const PORT = 8080;
+ app.listen(8080,()=>{
 console.log("server satrted port:"+PORT);
  })
 
